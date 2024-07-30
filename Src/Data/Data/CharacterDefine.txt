@@ -1,0 +1,59 @@
+{
+  "1": {
+    "TID": 1,
+    "Name": "战士",
+    "Type": "Normal",
+    "Class": "WARRIOR",
+    "Resource": "Character/Warrior",
+    "Description": "战士拥有平衡的输出手段和防御能力，作为一名近战专家，战士能够快速接近、牵制敌人并替队友吸引火力。上手难度较低，推荐新手玩家选用。\n\n【攻击】B\n【防御】A\n【难度】简单",
+    "InitLevel": 1,
+    "Speed": 300
+  },
+  "2": {
+    "TID": 2,
+    "Name": "法师",
+    "Type": "Normal",
+    "Class": "WIZARD",
+    "Resource": "Character/Wizard",
+    "Description": "法师拥有强大的魔法攻击能力，它能够对敌人造成大量伤害，但需要队友的保护。上手难度较高，推荐有经验的玩家选用。\n\n【攻击】A\n【防御】C\n【难度】困难",
+    "InitLevel": 1,
+    "Speed": 300
+  },
+  "3": {
+    "TID": 3,
+    "Name": "弓箭手",
+    "Type": "Normal",
+    "Class": "ARCHER",
+    "Resource": "Character/Archer",
+    "Description": "弓箭手能够再远处骚扰牵制敌人，并给予队友可观的增益，同时拥有不错的输出，属于团队中的多面手。上手难度中等，推荐有经验的玩家选用。\n\n【攻击】B\n【防御】B\n【难度】中等",
+    "InitLevel": 1,
+    "Speed": 300
+  },
+  "1001": {
+    "TID": 1001,
+    "Name": "恶鬼",
+    "Type": "Normal",
+    "Class": "WARRIOR",
+    "Resource": "Monster/M1001",
+    "InitLevel": 1,
+    "Speed": 300
+  },
+  "1002": {
+    "TID": 1002,
+    "Name": "-",
+    "Type": "Normal",
+    "Class": "WIZARD",
+    "Resource": "Monster/M1002",
+    "InitLevel": 1,
+    "Speed": 300
+  },
+  "1003": {
+    "TID": 1003,
+    "Name": "-",
+    "Type": "Normal",
+    "Class": "ARCHER",
+    "Resource": "Monster/M1003",
+    "InitLevel": 1,
+    "Speed": 300
+  }
+}
