@@ -1,167 +1,308 @@
-2024-07-16 22:59:12,593 [ 1] INFO  Unity: UserLoginRequest::user :test03 psw:Changeme
-2024-07-16 22:59:12,593 [ 1] INFO  Unity: UserLoginRequest::user :test03 psw:Changeme
-2024-07-16 22:59:12,594 [ 1] INFO  Unity: ConnectToServer() Start 
-2024-07-16 22:59:12,594 [ 1] INFO  Unity: ConnectToServer() Start 
-2024-07-16 22:59:12,598 [ 1] INFO  Unity: DoConnect
-2024-07-16 22:59:12,598 [ 1] INFO  Unity: DoConnect
-2024-07-16 22:59:12,599 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2024-07-16 22:59:12,599 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2024-07-16 22:59:12,602 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2024-08-01 23:47:08,434 [ 1] INFO  Unity: UserLoginRequest::user :test03 psw:Changeme
+2024-08-01 23:47:08,434 [ 1] INFO  Unity: UserLoginRequest::user :test03 psw:Changeme
+2024-08-01 23:47:08,435 [ 1] INFO  Unity: ConnectToServer() Start 
+2024-08-01 23:47:08,435 [ 1] INFO  Unity: ConnectToServer() Start 
+2024-08-01 23:47:08,439 [ 1] INFO  Unity: DoConnect
+2024-08-01 23:47:08,439 [ 1] INFO  Unity: DoConnect
+2024-08-01 23:47:08,441 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2024-08-01 23:47:08,441 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2024-08-01 23:47:08,445 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2024-07-16 22:59:12,603 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2024-08-01 23:47:08,445 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2024-07-16 22:59:12,606 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2024-07-16 22:59:12,690 [ 1] INFO  Unity: OnUserLogin:Success [None]
-2024-07-16 22:59:12,690 [ 1] INFO  Unity: OnUserLogin:Success [None]
-2024-07-16 22:59:12,691 [ 1] INFO  Unity: LoadLevel: CharSelect
-2024-07-16 22:59:12,691 [ 1] INFO  Unity: LoadLevel: CharSelect
-2024-07-16 22:59:12,798 [ 1] INFO  Unity: LevelLoadCompleted:1
-2024-07-16 22:59:12,798 [ 1] INFO  Unity: LevelLoadCompleted:1
-2024-07-16 22:59:13,967 [ 1] INFO  Unity: 0
-2024-07-16 22:59:13,967 [ 1] INFO  Unity: 0
-2024-07-16 22:59:19,747 [ 1] INFO  Unity: SendCharacterCreate:111,Warrior
-2024-07-16 22:59:19,747 [ 1] INFO  Unity: SendCharacterCreate:111,Warrior
-2024-07-16 22:59:21,801 [ 1] WARN  Unity: Asset 'Archer': Transition 'Archer_Move_Back -> Archer_Idle' in state 'Archer_Move_Back' doesn't have an Exit Time or any condition, transition will be ignored
+2024-08-01 23:47:08,449 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2024-08-01 23:47:09,012 [ 1] INFO  Unity: OnUserLogin:Success [None]
+2024-08-01 23:47:09,012 [ 1] INFO  Unity: OnUserLogin:Success [None]
+2024-08-01 23:47:09,013 [ 1] INFO  Unity: LoadLevel: CharSelect
+2024-08-01 23:47:09,013 [ 1] INFO  Unity: LoadLevel: CharSelect
+2024-08-01 23:47:11,364 [ 1] INFO  Unity: LevelLoadCompleted:1
+2024-08-01 23:47:11,364 [ 1] INFO  Unity: LevelLoadCompleted:1
+2024-08-01 23:47:29,872 [ 1] INFO  Unity: 0
+2024-08-01 23:47:29,872 [ 1] INFO  Unity: 0
+2024-08-01 23:47:33,986 [ 1] INFO  Unity: SendCharacterCreate:123,Warrior
+2024-08-01 23:47:33,986 [ 1] INFO  Unity: SendCharacterCreate:123,Warrior
+2024-08-01 23:47:48,250 [ 1] WARN  Unity: Asset 'Archer': Transition 'Archer_Move_Back -> Archer_Idle' in state 'Archer_Move_Back' doesn't have an Exit Time or any condition, transition will be ignored
 UnityEngine.GameObject:SetActive(Boolean)
 UICharView:showCharacter() (at Assets/Scripts/UI/UICharView.cs:38)
 UICharView:set_CurrectCharacter(Int32) (at Assets/Scripts/UI/UICharView.cs:20)
-UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:52)
-UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:45)
+UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:64)
+UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:57)
 UnityEngine.EventSystems.EventSystem:Update()
 
-2024-07-16 22:59:21,801 [ 1] WARN  Unity: Asset 'Archer': Transition 'Archer_Move_Back -> Archer_Idle' in state 'Archer_Move_Back' doesn't have an Exit Time or any condition, transition will be ignored
+2024-08-01 23:47:48,250 [ 1] WARN  Unity: Asset 'Archer': Transition 'Archer_Move_Back -> Archer_Idle' in state 'Archer_Move_Back' doesn't have an Exit Time or any condition, transition will be ignored
 UnityEngine.GameObject:SetActive(Boolean)
 UICharView:showCharacter() (at Assets/Scripts/UI/UICharView.cs:38)
 UICharView:set_CurrectCharacter(Int32) (at Assets/Scripts/UI/UICharView.cs:20)
-UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:52)
-UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:45)
+UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:64)
+UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:57)
 UnityEngine.EventSystems.EventSystem:Update()
 
-2024-07-16 22:59:21,802 [ 1] WARN  Unity: Asset 'Archer': Transition 'Archer_Move_Left -> Archer_Idle' in state 'Archer_Move_Left' doesn't have an Exit Time or any condition, transition will be ignored
+2024-08-01 23:47:48,251 [ 1] WARN  Unity: Asset 'Archer': Transition 'Archer_Move_Left -> Archer_Idle' in state 'Archer_Move_Left' doesn't have an Exit Time or any condition, transition will be ignored
 UnityEngine.GameObject:SetActive(Boolean)
 UICharView:showCharacter() (at Assets/Scripts/UI/UICharView.cs:38)
 UICharView:set_CurrectCharacter(Int32) (at Assets/Scripts/UI/UICharView.cs:20)
-UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:52)
-UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:45)
+UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:64)
+UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:57)
 UnityEngine.EventSystems.EventSystem:Update()
 
-2024-07-16 22:59:21,802 [ 1] WARN  Unity: Asset 'Archer': Transition 'Archer_Move_Left -> Archer_Idle' in state 'Archer_Move_Left' doesn't have an Exit Time or any condition, transition will be ignored
+2024-08-01 23:47:48,251 [ 1] WARN  Unity: Asset 'Archer': Transition 'Archer_Move_Left -> Archer_Idle' in state 'Archer_Move_Left' doesn't have an Exit Time or any condition, transition will be ignored
 UnityEngine.GameObject:SetActive(Boolean)
 UICharView:showCharacter() (at Assets/Scripts/UI/UICharView.cs:38)
 UICharView:set_CurrectCharacter(Int32) (at Assets/Scripts/UI/UICharView.cs:20)
-UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:52)
-UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:45)
+UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:64)
+UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:57)
 UnityEngine.EventSystems.EventSystem:Update()
 
-2024-07-16 22:59:21,803 [ 1] WARN  Unity: Asset 'Archer': Transition 'Archer_Move_Right -> Archer_Idle' in state 'Archer_Move_Right' doesn't have an Exit Time or any condition, transition will be ignored
+2024-08-01 23:47:48,252 [ 1] WARN  Unity: Asset 'Archer': Transition 'Archer_Move_Right -> Archer_Idle' in state 'Archer_Move_Right' doesn't have an Exit Time or any condition, transition will be ignored
 UnityEngine.GameObject:SetActive(Boolean)
 UICharView:showCharacter() (at Assets/Scripts/UI/UICharView.cs:38)
 UICharView:set_CurrectCharacter(Int32) (at Assets/Scripts/UI/UICharView.cs:20)
-UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:52)
-UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:45)
+UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:64)
+UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:57)
 UnityEngine.EventSystems.EventSystem:Update()
 
-2024-07-16 22:59:21,803 [ 1] WARN  Unity: Asset 'Archer': Transition 'Archer_Move_Right -> Archer_Idle' in state 'Archer_Move_Right' doesn't have an Exit Time or any condition, transition will be ignored
+2024-08-01 23:47:48,252 [ 1] WARN  Unity: Asset 'Archer': Transition 'Archer_Move_Right -> Archer_Idle' in state 'Archer_Move_Right' doesn't have an Exit Time or any condition, transition will be ignored
 UnityEngine.GameObject:SetActive(Boolean)
 UICharView:showCharacter() (at Assets/Scripts/UI/UICharView.cs:38)
 UICharView:set_CurrectCharacter(Int32) (at Assets/Scripts/UI/UICharView.cs:20)
-UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:52)
-UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:45)
+UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:64)
+UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:57)
 UnityEngine.EventSystems.EventSystem:Update()
 
-2024-07-16 22:59:21,804 [ 1] WARN  Unity: Asset 'Archer': Transition 'AnyState -> Archer_SkillA' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
+2024-08-01 23:47:48,253 [ 1] WARN  Unity: Asset 'Archer': Transition 'AnyState -> Archer_SkillA' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
 UnityEngine.GameObject:SetActive(Boolean)
 UICharView:showCharacter() (at Assets/Scripts/UI/UICharView.cs:38)
 UICharView:set_CurrectCharacter(Int32) (at Assets/Scripts/UI/UICharView.cs:20)
-UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:52)
-UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:45)
+UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:64)
+UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:57)
 UnityEngine.EventSystems.EventSystem:Update()
 
-2024-07-16 22:59:21,804 [ 1] WARN  Unity: Asset 'Archer': Transition 'AnyState -> Archer_SkillA' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
+2024-08-01 23:47:48,253 [ 1] WARN  Unity: Asset 'Archer': Transition 'AnyState -> Archer_SkillA' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
 UnityEngine.GameObject:SetActive(Boolean)
 UICharView:showCharacter() (at Assets/Scripts/UI/UICharView.cs:38)
 UICharView:set_CurrectCharacter(Int32) (at Assets/Scripts/UI/UICharView.cs:20)
-UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:52)
-UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:45)
+UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:64)
+UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:57)
 UnityEngine.EventSystems.EventSystem:Update()
 
-2024-07-16 22:59:21,805 [ 1] WARN  Unity: Asset 'Archer': Transition 'AnyState -> Archer_SkillB' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
+2024-08-01 23:47:48,254 [ 1] WARN  Unity: Asset 'Archer': Transition 'AnyState -> Archer_SkillB' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
 UnityEngine.GameObject:SetActive(Boolean)
 UICharView:showCharacter() (at Assets/Scripts/UI/UICharView.cs:38)
 UICharView:set_CurrectCharacter(Int32) (at Assets/Scripts/UI/UICharView.cs:20)
-UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:52)
-UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:45)
+UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:64)
+UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:57)
 UnityEngine.EventSystems.EventSystem:Update()
 
-2024-07-16 22:59:21,805 [ 1] WARN  Unity: Asset 'Archer': Transition 'AnyState -> Archer_SkillB' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
+2024-08-01 23:47:48,254 [ 1] WARN  Unity: Asset 'Archer': Transition 'AnyState -> Archer_SkillB' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
 UnityEngine.GameObject:SetActive(Boolean)
 UICharView:showCharacter() (at Assets/Scripts/UI/UICharView.cs:38)
 UICharView:set_CurrectCharacter(Int32) (at Assets/Scripts/UI/UICharView.cs:20)
-UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:52)
-UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:45)
+UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:64)
+UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:57)
 UnityEngine.EventSystems.EventSystem:Update()
 
-2024-07-16 22:59:21,806 [ 1] WARN  Unity: Asset 'Archer': Transition 'AnyState -> Archer_Hurt' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
+2024-08-01 23:47:48,254 [ 1] WARN  Unity: Asset 'Archer': Transition 'AnyState -> Archer_Hurt' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
 UnityEngine.GameObject:SetActive(Boolean)
 UICharView:showCharacter() (at Assets/Scripts/UI/UICharView.cs:38)
 UICharView:set_CurrectCharacter(Int32) (at Assets/Scripts/UI/UICharView.cs:20)
-UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:52)
-UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:45)
+UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:64)
+UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:57)
 UnityEngine.EventSystems.EventSystem:Update()
 
-2024-07-16 22:59:21,806 [ 1] WARN  Unity: Asset 'Archer': Transition 'AnyState -> Archer_Hurt' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
+2024-08-01 23:47:48,255 [ 1] WARN  Unity: Asset 'Archer': Transition 'AnyState -> Archer_Hurt' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
 UnityEngine.GameObject:SetActive(Boolean)
 UICharView:showCharacter() (at Assets/Scripts/UI/UICharView.cs:38)
 UICharView:set_CurrectCharacter(Int32) (at Assets/Scripts/UI/UICharView.cs:20)
-UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:52)
-UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:45)
+UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:64)
+UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:57)
 UnityEngine.EventSystems.EventSystem:Update()
 
-2024-07-16 22:59:21,807 [ 1] WARN  Unity: Asset 'Archer': Transition 'AnyState -> Archer_Jump' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
+2024-08-01 23:47:48,255 [ 1] WARN  Unity: Asset 'Archer': Transition 'AnyState -> Archer_Jump' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
 UnityEngine.GameObject:SetActive(Boolean)
 UICharView:showCharacter() (at Assets/Scripts/UI/UICharView.cs:38)
 UICharView:set_CurrectCharacter(Int32) (at Assets/Scripts/UI/UICharView.cs:20)
-UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:52)
-UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:45)
+UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:64)
+UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:57)
 UnityEngine.EventSystems.EventSystem:Update()
 
-2024-07-16 22:59:21,807 [ 1] WARN  Unity: Asset 'Archer': Transition 'AnyState -> Archer_Jump' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
+2024-08-01 23:47:48,255 [ 1] WARN  Unity: Asset 'Archer': Transition 'AnyState -> Archer_Jump' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
 UnityEngine.GameObject:SetActive(Boolean)
 UICharView:showCharacter() (at Assets/Scripts/UI/UICharView.cs:38)
 UICharView:set_CurrectCharacter(Int32) (at Assets/Scripts/UI/UICharView.cs:20)
-UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:52)
-UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:45)
+UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:64)
+UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:57)
 UnityEngine.EventSystems.EventSystem:Update()
 
-2024-07-16 22:59:21,807 [ 1] WARN  Unity: Asset 'Archer': Transition 'AnyState -> Archer_Death' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
+2024-08-01 23:47:48,256 [ 1] WARN  Unity: Asset 'Archer': Transition 'AnyState -> Archer_Death' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
 UnityEngine.GameObject:SetActive(Boolean)
 UICharView:showCharacter() (at Assets/Scripts/UI/UICharView.cs:38)
 UICharView:set_CurrectCharacter(Int32) (at Assets/Scripts/UI/UICharView.cs:20)
-UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:52)
-UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:45)
+UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:64)
+UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:57)
 UnityEngine.EventSystems.EventSystem:Update()
 
-2024-07-16 22:59:21,808 [ 1] WARN  Unity: Asset 'Archer': Transition 'AnyState -> Archer_Death' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
+2024-08-01 23:47:48,256 [ 1] WARN  Unity: Asset 'Archer': Transition 'AnyState -> Archer_Death' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
 UnityEngine.GameObject:SetActive(Boolean)
 UICharView:showCharacter() (at Assets/Scripts/UI/UICharView.cs:38)
 UICharView:set_CurrectCharacter(Int32) (at Assets/Scripts/UI/UICharView.cs:20)
-UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:52)
-UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:45)
+UICharCreate:showClassDetails() (at Assets/Scripts/UI/UICharCreate.cs:64)
+UICharCreate:onClickSelectClass(Int32) (at Assets/Scripts/UI/UICharCreate.cs:57)
 UnityEngine.EventSystems.EventSystem:Update()
 
-2024-07-16 22:59:23,771 [ 1] INFO  Unity: SendCharacterCreate:111,Archer
-2024-07-16 22:59:23,772 [ 1] INFO  Unity: SendCharacterCreate:111,Archer
-2024-07-16 22:59:26,654 [ 1] INFO  Unity: SendCharacterCreate:111,Wizard
-2024-07-16 22:59:26,655 [ 1] INFO  Unity: SendCharacterCreate:111,Wizard
-2024-07-16 23:52:15,011 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2024-07-16 23:52:15,012 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2024-07-16 23:52:15,012 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2024-08-01 23:47:53,634 [ 1] INFO  Unity: SendCharacterCreate:123,Archer
+2024-08-01 23:47:53,635 [ 1] INFO  Unity: SendCharacterCreate:123,Archer
+2024-08-01 23:58:18,608 [ 1] INFO  Unity: ProcessReceive exception:System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+
+  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
+  at Network.NetClient.ProcessRecv () [0x00084] in D:\projects\mymmo\Src\Client\Assets\Scripts\Network\NetClient.cs:340 
+
+2024-08-01 23:58:18,608 [ 1] INFO  Unity: ProcessReceive exception:System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+
+  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
+  at Network.NetClient.ProcessRecv () [0x00084] in D:\projects\mymmo\Src\Client\Assets\Scripts\Network\NetClient.cs:340 
+
+2024-08-01 23:58:18,608 [ 1] WARN  Unity: CloseConnection(), errorCode: 1001
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
-Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
+Network.NetClient:ProcessRecv() (at Assets/Scripts/Network/NetClient.cs:354)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:434)
 
-2024-07-16 23:52:15,012 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2024-08-01 23:58:18,608 [ 1] WARN  Unity: CloseConnection(), errorCode: 1001
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
-Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
+Network.NetClient:ProcessRecv() (at Assets/Scripts/Network/NetClient.cs:354)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:434)
 
+2024-08-01 23:58:18,624 [ 1] INFO  Unity: DoConnect
+2024-08-01 23:58:18,624 [ 1] INFO  Unity: DoConnect
+2024-08-01 23:58:18,625 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2024-08-01 23:58:18,625 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2024-08-01 23:58:18,627 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2024-08-01 23:58:18,627 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2024-08-01 23:58:20,659 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
+
+2024-08-01 23:58:20,659 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
+
+2024-08-01 23:58:20,661 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
+UnityEngine.Debug:LogErrorFormat(String, Object[])
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:276)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
+
+2024-08-01 23:58:20,661 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
+UnityEngine.Debug:LogErrorFormat(String, Object[])
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:276)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
+
+2024-08-01 23:58:20,687 [ 1] INFO  Unity: DoConnect
+2024-08-01 23:58:20,687 [ 1] INFO  Unity: DoConnect
+2024-08-01 23:58:20,688 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2024-08-01 23:58:20,688 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2024-08-01 23:58:20,689 [ 1] INFO  Unity: Connect[1] to server 127.0.0.1:8000
+
+2024-08-01 23:58:20,689 [ 1] INFO  Unity: Connect[1] to server 127.0.0.1:8000
+
+2024-08-01 23:58:22,719 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
+
+2024-08-01 23:58:22,720 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
+
+2024-08-01 23:58:22,720 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
+UnityEngine.Debug:LogErrorFormat(String, Object[])
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:276)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
+
+2024-08-01 23:58:22,720 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
+UnityEngine.Debug:LogErrorFormat(String, Object[])
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:276)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
+
+2024-08-01 23:58:22,761 [ 1] INFO  Unity: DoConnect
+2024-08-01 23:58:22,761 [ 1] INFO  Unity: DoConnect
+2024-08-01 23:58:22,761 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2024-08-01 23:58:22,762 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2024-08-01 23:58:22,763 [ 1] INFO  Unity: Connect[2] to server 127.0.0.1:8000
+
+2024-08-01 23:58:22,763 [ 1] INFO  Unity: Connect[2] to server 127.0.0.1:8000
+
+2024-08-01 23:58:24,793 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
+
+2024-08-01 23:58:24,793 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
+
+2024-08-01 23:58:24,793 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
+UnityEngine.Debug:LogErrorFormat(String, Object[])
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:276)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
+
+2024-08-01 23:58:24,793 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
+UnityEngine.Debug:LogErrorFormat(String, Object[])
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:276)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
+
+2024-08-01 23:58:24,793 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :1 reason:Cannot connect to server
